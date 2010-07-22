@@ -1,15 +1,17 @@
 //
 //  TestNode.h
-//  OMGTTT
+//  cocosMNCTest
 //
-//  Created by Jeremy on 1/12/10.
-//  Copyright 2010 Jeremy Flores. All rights reserved.
+//  Created by jeremy on 7/21/10.
+//  Copyright 2010 N/A. All rights reserved.
 //
 
 #import "cocos2d.h"
-#import "TestModel.h"
 
-@interface TestNode : Label<ModelDelegate> {
+#import "AbstractModel.h"
+
+@interface TestNode : CCLabel<ModelDelegate> {
+	
 }
 
 @end

@@ -1,0 +1,2 @@
+/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNode+Additions.m:9:29: error: CCNode+Additions.h: No such file or directory
+/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNode+Additions.m:12: error: cannot find interface declaration for 'CCNode'

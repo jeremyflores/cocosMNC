@@ -1,17 +1,17 @@
 //
 //  TestNode.m
-//  OMGTTT
+//  cocosMNCTest
 //
-//  Created by Jeremy on 1/12/10.
-//  Copyright 2010 Jeremy Flores. All rights reserved.
+//  Created by jeremy on 7/21/10.
+//  Copyright 2010 N/A. All rights reserved.
 //
 
 #import "TestNode.h"
-#import "CocosNode+Additions.h"
+#import "TestModel.h"
 
 @implementation TestNode
 
--(id)init {
+-(id) init {
 	if (self=[super initWithString:@"" fontName:@"Marker Felt" fontSize:32]) {
 		self.anchorPoint = ccp(0.5, 0.5);
 		self.position = ccp(320/2, 480/2);
@@ -20,8 +20,9 @@
 }
 
 -(void)modelDidChange:(TestModel *)model {
-	[self setString:model.string];
+	[self setString:model.title];
 	[self setColor:model.color];
+	NSLog(@"%@ %d %d %d", model.title, model.color.r, model.color.g, model.color.b);
 }
 
 @end

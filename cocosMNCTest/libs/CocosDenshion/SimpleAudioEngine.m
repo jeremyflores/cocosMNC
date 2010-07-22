@@ -1,49 +1,52 @@
 /*
- *  SimpleAudioEngine.mm
- *  SweetDreams
- *
- *  Created by João Caxaria on 5/24/09.
- *  Copyright 2009 Cocos2d-iPhone - If you find this useful, please give something back.
- *
+ Copyright (c) 2010 Steve Oldmeadow
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ 
+ $Id$
  */
 
 #import "SimpleAudioEngine.h"
 #import <AVFoundation/AVFoundation.h>
 
-
-@interface SimpleAudioEngine (Buffers)
-
--(NSNumber*) getNextAvailableBuffer;
--(void) freeBuffer:(NSNumber*) buffer;
-
-@end
-
-
 @implementation SimpleAudioEngine
 
 static SimpleAudioEngine *sharedEngine = nil;
 static CDSoundEngine* soundEngine = nil;
-static NSMutableDictionary* loadedEffects = nil;
-static bool usedBuffers[CD_MAX_BUFFERS];
 static CDAudioManager *am = nil;
+static CDBufferManager *bufferManager = nil;
 
 // Init
 + (SimpleAudioEngine *) sharedEngine
 {
 	@synchronized(self)     {
 		if (!sharedEngine)
-			[[SimpleAudioEngine alloc] init];
-		return sharedEngine;
+			sharedEngine = [[SimpleAudioEngine alloc] init];
 	}
-	return nil;
+	return sharedEngine;
 }
 
 + (id) alloc
 {
 	@synchronized(self)     {
 		NSAssert(sharedEngine == nil, @"Attempted to allocate a second instance of a singleton.");
-		sharedEngine = [super alloc];
-		return sharedEngine;
+		return [super alloc];
 	}
 	return nil;
 }
@@ -51,16 +54,10 @@ static CDAudioManager *am = nil;
 -(id) init
 {
 	if((self=[super init])) {
-	
-		int channelGroups[1];
-		channelGroups[0] = CD_MAX_SOURCES - 1;
-		//Setting up the audio manager with this mode means that if the user is playing music when the app starts then 
-		//background music will not be played.
-		am = [[CDAudioManager alloc] init:kAudioManagerFxPlusMusicIfNoOtherAudio channelGroupDefinitions:channelGroups channelGroupTotal:1];
+		am = [CDAudioManager sharedManager];
 		soundEngine = am.soundEngine;
-		loadedEffects = [[NSMutableDictionary alloc] initWithCapacity:CD_MAX_BUFFERS];
-		
-		muted_ = NO;
+		bufferManager = [[CDBufferManager alloc] initWithEngine:soundEngine];
+		mute_ = NO;
 	}
 	return self;
 }
@@ -68,16 +65,20 @@ static CDAudioManager *am = nil;
 // Memory
 - (void) dealloc
 {
-	[am release];
 	am = nil;
-	
 	soundEngine = nil;
-	
-	[loadedEffects autorelease];
-	loadedEffects = nil;
-	
+	bufferManager = nil;
 	[super dealloc];
 }
+
++(void) end 
+{
+	am = nil;
+	[CDAudioManager end];
+	[bufferManager release];
+	[sharedEngine release];
+	sharedEngine = nil;
+}	
 
 #pragma mark SimpleAudioEngine - background music
 
@@ -129,20 +130,12 @@ static CDAudioManager *am = nil;
 
 -(ALuint) playEffect:(NSString*) filePath pitch:(Float32) pitch pan:(Float32) pan gain:(Float32) gain
 {
-	NSNumber* soundId = (NSNumber*)[loadedEffects objectForKey:filePath];
-	
-	if(soundId == nil)
-	{
-#ifdef ASSERT_DEBUG
-		@throw [[[NSException alloc] initWithName:@"SimpleAudioEngine::playEffect" 
-										   reason:filePath userInfo:nil] autorelease];
-#else
-		[self preloadEffect:filePath];
-		soundId = (NSNumber*)[loadedEffects objectForKey:filePath];//Issue 465 - thanks myBuddyCJ
-#endif
-	}
-	
-	return [soundEngine playSound:[soundId intValue] channelGroupId:0 pitch:pitch pan:pan gain:gain loop:false];
+	int soundId = [bufferManager bufferForFile:filePath create:YES];
+	if (soundId != kCDNoBuffer) {
+		return [soundEngine playSound:soundId sourceGroupId:0 pitch:pitch pan:pan gain:gain loop:false];
+	} else {
+		return CD_MUTE;
+	}	
 }
 
 -(void) stopEffect:(ALuint) soundId {
@@ -151,49 +144,47 @@ static CDAudioManager *am = nil;
 
 -(void) preloadEffect:(NSString*) filePath
 {
-	NSNumber* soundId = (NSNumber*)[loadedEffects objectForKey:filePath];
-
-	if(soundId != nil)
-	{
-		#ifdef ASSERT_DEBUG
-		@throw [[[NSException alloc] initWithName:@"SimpleAudioEngine::preloadEffect" reason:filePath userInfo:nil] autorelease];
-		#else
-		return;
-		#endif
-	}
-
-	NSNumber* position = [self getNextAvailableBuffer];
-	[loadedEffects setObject:position forKey:filePath];
-	[soundEngine loadBuffer:[position intValue] filePath:filePath];
+	int soundId = [bufferManager bufferForFile:filePath create:YES];
+	if (soundId == kCDNoBuffer) {
+		CDLOG(@"Denshion::SimpleAudioEngine sound failed to preload %@",filePath);
+	} else {
+		CDLOG(@"Denshion::SimpleAudioEngine preloaded %@",filePath);
+	}	
 }
 
 -(void) unloadEffect:(NSString*) filePath
 {
-	NSNumber* soundId = [loadedEffects objectForKey:filePath];
-	if(soundId == nil)
-	{
-		#ifdef ASSERT_DEBUG
-		@throw [[[NSException alloc] initWithName:@"SimpleAudioEngine::unloadEffect" reason:filePath userInfo:nil] autorelease];
-		#else
-		return;
-		#endif
-	}
-	[self freeBuffer:soundId];
-	[loadedEffects removeObjectForKey:filePath];
-	[soundEngine unloadBuffer:[soundId intValue]];
+	CDLOG(@"Denshion::SimpleAudioEngine unloadedEffect %@",filePath);
+	[bufferManager releaseBufferForFile:filePath];
 }
 
-#pragma mark SimpleAudioEngine - Muted
--(BOOL) muted
+#pragma mark Audio Interrupt Protocol
+-(BOOL) mute
 {
-	return muted_;
+	return mute_;
 }
 
--(void) setMuted:(BOOL)muted
+-(void) setMute:(BOOL) muteValue
 {
-	muted_ = muted;
-	am.mute = muted;
+	if (mute_ != muteValue) {
+		mute_ = muteValue;
+		am.mute = mute_;
+	}	
 }
+
+-(BOOL) enabled
+{
+	return enabled_;
+}
+
+-(void) setEnabled:(BOOL) enabledValue
+{
+	if (enabled_ != enabledValue) {
+		enabled_ = enabledValue;
+		am.enabled = enabled_;
+	}	
+}
+
 
 #pragma mark SimpleAudioEngine - BackgroundMusicVolume
 -(float) backgroundMusicVolume
@@ -217,32 +208,15 @@ static CDAudioManager *am = nil;
 	am.soundEngine.masterGain = volume;
 }	
 
+-(CDSoundSource *) soundSourceForFile:(NSString*) filePath {
+	int soundId = [bufferManager bufferForFile:filePath create:YES];
+	if (soundId != kCDNoBuffer) {
+		CDSoundSource *result = [soundEngine soundSourceForSound:soundId sourceGroupId:0];
+		CDLOG(@"Denshion::SimpleAudioEngine sound source created for %@",filePath);
+		return result;
+	} else {
+		return nil;
+	}	
+}	
 
 @end 
-
-#pragma mark SimpleAudioEngine - Buffers
-
-@implementation SimpleAudioEngine (Buffers)
-
--(NSNumber*) getNextAvailableBuffer
-{
-	for(int i = 0; i < CD_MAX_BUFFERS ; i++)
-	{
-		if(!usedBuffers[i])
-		{
-			usedBuffers[i] = true;
-			return [[[NSNumber alloc] initWithInt:i] autorelease];
-		}
-	}
-#ifdef ASSERT_DEBUG
-	@throw [[[NSException alloc] initWithName:@"AudioEngine::getNextAvailableBuffer" reason:@"Full buffers" userInfo:nil] autorelease];
-#endif
-	return nil;//Added to get rid of compiler warning
-}
-
--(void) freeBuffer:(NSNumber*) buffer
-{
-	usedBuffers[[buffer intValue]] = false;
-}
-
-@end

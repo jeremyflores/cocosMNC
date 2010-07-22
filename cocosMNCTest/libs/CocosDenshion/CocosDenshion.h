@@ -1,25 +1,28 @@
-/* CocosDenshion Sound Engine
- *
- * Copyright (C) 2009 Steve Oldmeadow
- *
- * For independent entities this program is free software; you can redistribute
- * it and/or modify it under the terms of the 'cocos2d for iPhone' license with
- * the additional proviso that 'cocos2D for iPhone' must be credited in a manner
- * that can be be observed by end users, for example, in the credits or during
- * start up. Failure to include such notice is deemed to be acceptance of a 
- * non independent license (see below).
- *
- * For the purpose of this software non independent entities are defined as 
- * those where the annual revenue of the entity employing, partnering, or 
- * affiliated in any way with the Licensee is greater than $250,000 USD annually.
- *
- * Non independent entities may license this software or a derivation of it
- * by a donation of $500 USD per application to the cocos2d for iPhone project. 
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+/*
+ Copyright (c) 2010 Steve Oldmeadow
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ 
+ $Id$
  */
+
+
 
 /** 
 @file
@@ -64,55 +67,40 @@ Requirements:
  
 */ 
 
-/* Changelog
-2.0 (2009.07.09) * Change all file names to file paths to support loading sounds from locations other than root.
-                   (Thanks to Jason Cecil)
-                 * Take out C++ dependencies to make it easy to include CocosDenshion in static libraries. 
-1.6 (2009.07.02) * Added looping property to CDSourceWrapper so that looping flag can be toggled during playback
-                   (Thanks to Pablo Ruiz)
-                 * Added fix to ensure mp3 files are not decoded in software on 3.0 (Thanks to Bryan Accleroto) 
-                 * Added mute to CDAudioManager
-                 * Added handlers for resign active and become active to CDAudioManager (Thanks to Dominique Bongard)
-			     * Added stopBackgroundMusic method with flag to indicate whether resources should be released
-				   (Thanks to Dominique Bongard) 
-				 * Added functionality to mute channel groups
-1.5 (2009.06.13) * Added preLoadBackgroundMusic method to CDAudioManager to allow background music to be preloaded
-                 * Fixed bug with sound engine locking up when trying to load non existent file asynchronously 
-                   (Thanks to Edison's Labs for reporting)
-1.4 (2009.06.10) * Implemented asynchronous initialisation of audio manager
-                 * Implemented asynchronous loading of sound buffers
-                 * Fixed problem with mute button being ignored if game played background music (Thanks to Sebastien Flory for reporting)
-1.3 (2009.06.02) * Added non interruptible option for channel group
-                 * Added loop parameter for playing background music
-                 * Added isPlaying property to CDSourceWrapper
-                 * Modified CDSourceWrapper to return last set values of pitch, pan and gain
-                 * Added option of specifying callback selector for background music completion to CDAudioManager
-                 * Workaround for issue in 2.2 & 2.2.1 simulator whereby OpenAL playback would be killed after 
-                   an AVAudioPlayer (backgroundMusic) stops.
-1.2 (2009.05.27) * Changes for integration with cocos2d svn repository.
-				 * Renamed myOpenALSupport.h to CDOpenALSupport.h to distinguish it from the
-				   version included with the Aeterius sound engine.
-				 * Added unloadBuffer method.
-				 * Updated myOpenALSupport.h to latest version with support for IMA4 compressed files
-1.1 (2009.05.26) * Added code for handling audio session interruption. Thanks to Andy Fitter and
-                   Ben Britten for the code.
-1.0 (2009.05.01) * Initial release
-*/
-
 #import <UIKit/UIKit.h>
 #import <OpenAL/al.h>
 #import <OpenAL/alc.h>
 #import <AudioToolbox/AudioToolbox.h>
-#import "FileUtils.h"
+#import "CDConfig.h"
 
-//You may want to edit these. Devices won't support any more than 32 sources though.
-#define CD_MAX_BUFFERS 32 //Total number of sounds that can be loaded
-#define CD_MAX_SOURCES 32 //Total number of playback channels that can be created (32 is the limit)
+#if !defined(CD_DEBUG) || CD_DEBUG == 0
+#define CDLOG(...) do {} while (0)
+#define CDLOGINFO(...) do {} while (0)
 
+#elif CD_DEBUG == 1
+#define CDLOG(...) NSLog(__VA_ARGS__)
+#define CDLOGINFO(...) do {} while (0)
+
+#elif CD_DEBUG > 1
+#define CDLOG(...) NSLog(__VA_ARGS__)
+#define CDLOGINFO(...) NSLog(__VA_ARGS__)
+#endif // CD_DEBUG
+
+
+#import "CDOpenALSupport.h"
+
+//Tested source limit on 2.2.1 and 3.1.2 with up to 128 sources and appears to work. Older OS versions e.g 2.2 may support only 32
+#define CD_SOURCE_LIMIT 32 //Total number of sources we will ever want, may actually get less
 #define CD_NO_SOURCE 0xFEEDFAC //Return value indicating playback failed i.e. no source
 #define CD_IGNORE_AUDIO_SESSION 0xBEEFBEE //Used internally to indicate audio session will not be handled
-#define CD_CHANNEL_GROUP_NON_INTERRUPTIBLE 0xFEDEEFF //User internally to indicate channel group is not interruptible
 #define CD_MUTE      0xFEEDBAB //Return value indicating sound engine is muted or non functioning
+#define CD_NO_SOUND = -1;
+
+#define CD_SAMPLE_RATE_HIGH 44100
+#define CD_SAMPLE_RATE_MID  22050
+#define CD_SAMPLE_RATE_LOW  16000
+#define CD_SAMPLE_RATE_BASIC 8000
+#define CD_SAMPLE_RATE_DEFAULT 44100
 
 enum bufferState {
 	CD_BS_EMPTY = 0,
@@ -120,15 +108,68 @@ enum bufferState {
 	CD_BS_FAILED = 2
 };
 
-typedef struct _channelGroup {
+typedef struct _sourceGroup {
 	int startIndex;
-	int endIndex;
 	int currentIndex;
-	bool mute;
-} channelGroup;
+	int totalSources;
+	bool enabled;
+	bool nonInterruptible;
+	int *sourceStatuses;//pointer into array of source status information
+} sourceGroup;
+
+typedef struct _bufferInfo {
+	ALuint bufferId;
+	int bufferState;
+	void* bufferData;
+} bufferInfo;	
+
+typedef struct _sourceInfo {
+	bool usable;
+	ALuint sourceId;
+	ALuint attachedBufferId;
+} sourceInfo;	
+
+#pragma mark CDAudioTransportProtocol
+
+@protocol CDAudioTransportProtocol <NSObject>
+/** Play the audio */
+-(BOOL) play;
+/** Pause the audio, retain resources */
+-(BOOL) pause;
+/** Stop the audio, release resources */
+-(BOOL) stop;
+/** Return playback to beginning */
+-(BOOL) rewind;
+@end
+
+#pragma mark CDAudioInterruptProtocol
+
+@protocol CDAudioInterruptProtocol <NSObject>
+/** Is audio mute */
+-(BOOL) mute;
+/** If YES then audio is silenced but not stopped, calls to start new audio will proceed but silently */
+-(void) setMute:(BOOL) muteValue;
+/** Is audio enabled */
+-(BOOL) enabled;
+/** If NO then all audio is stopped and any calls to start new audio will be ignored */
+-(void) setEnabled:(BOOL) enabledValue;
+@end
+
+#pragma mark CDUtilities
+/**
+ Collection of utilities required by CocosDenshion
+ */
+@interface CDUtilities : NSObject
+{
+}	
+
+/** Fundamentally the same as the corresponding method is CCFileUtils but added to break binding to cocos2d */
++(NSString*) fullPathFromRelativePath:(NSString*) relPath;
+
+@end
 
 
-////////////////////////////////////////////////////////////////////////////
+#pragma mark CDSoundEngine
 
 /** CDSoundEngine is built upon OpenAL and works with SDK 2.0.
  CDSoundEngine is a sound engine built upon OpenAL and derived from Apple's oalTouch 
@@ -144,78 +185,132 @@ typedef struct _channelGroup {
  
  @since v0.8
  */
-@interface CDSoundEngine : NSObject {
+@class CDSoundSource;
+@interface CDSoundEngine : NSObject <CDAudioInterruptProtocol> {
 	
-	ALuint			*_sources;
-	ALuint			*_buffers;
-	int				*_bufferStates;
-	ALuint			*_sourceBufferAttachments;
-	channelGroup	*_channelGroups;
+	bufferInfo		*_buffers;
+	sourceInfo		*_sources;
+	sourceGroup	    *_sourceGroups;
 	ALCcontext		*context;
-	int				_channelGroupTotal;
-	int				_channelTotal;
+	int				_sourceGroupTotal;
 	UInt32			_audioSessionCategory;
 	BOOL			_handleAudioSession;
-	BOOL			_mute;
+	BOOL			mute_;
+	BOOL			enabled_;
+	ALfloat			_preMuteGain;
+
+	ALenum			lastErrorCode_;
+	BOOL			functioning_;
+	float			asynchLoadProgress_;
+	BOOL			getGainWorks_;
 	
-	ALenum			lastErrorCode;
-	BOOL			functioning;
-	float			asynchLoadProgress;
-	
+	//For managing dynamic allocation of sources and buffers
+	int sourceTotal_;
+	int bufferTotal;
+	 
 }
 
 @property (readwrite, nonatomic) ALfloat masterGain;
-@property (readwrite, nonatomic) BOOL mute;
 @property (readonly)  ALenum lastErrorCode;//Last OpenAL error code that was generated
 @property (readonly)  BOOL functioning;//Is the sound engine functioning
 @property (readwrite) float asynchLoadProgress;
+@property (readonly)  BOOL getGainWorks;//Does getting the gain for a source work
+/** Total number of sources available */
+@property (readonly) int sourceTotal;
+/** Total number of source groups that have been defined */
+@property (readonly) int sourceGroupTotal;
+
+/** Sets the sample rate for the audio mixer. For best performance this should match the sample rate of your audio content */
++(void) setMixerSampleRate:(Float32) sampleRate;
 
 /** Initializes the engine with a group definition and a total number of groups */
-- (id)init:(int[]) channelGroupDefinitions channelGroupTotal:(int) channelGroupTotal;
+-(id)init;
 /** Initializes the engine with a group definition, a total number of groups and an audio session category */
-- (id)init:(int[]) channelGroupDefinitions channelGroupTotal:(int) channelGroupTotal audioSessionCategory:(UInt32) audioSessionCategory;
+-(id)init:(UInt32) audioSessionCategory;
 
 /** Plays a sound in a channel group with a pitch, pan and gain. The sound could played looped or not */
-- (ALuint) playSound:(int) soundId channelGroupId:(int)channelGroupId pitch:(float) pitch pan:(float) pan gain:(float) gain loop:(BOOL) loop;
+-(ALuint) playSound:(int) soundId sourceGroupId:(int)sourceGroupId pitch:(float) pitch pan:(float) pan gain:(float) gain loop:(BOOL) loop;
+
+/** Creates and returns a sound source object for the specified sound within the specified source group.
+ */
+-(CDSoundSource *) soundSourceForSound:(int) soundId sourceGroupId:(int) sourceGroupId;
 
 /** Stops playing a sound */
 - (void) stopSound:(ALuint) sourceId;
-/** Stops playing a channel group */
-- (void) stopChannelGroup:(int) channelGroupId;
-- (void) setChannelGroupNonInterruptible:(int) channelGroupId isNonInterruptible:(BOOL) isNonInterruptible;
-- (void) setChannelGroupMute:(int) channelGroupId mute:(BOOL) mute;
-- (BOOL) channelGroupMute:(int) channelGroupId;
-- (BOOL) loadBuffer:(int) soundId filePath:(NSString*) filePath;
-- (void) loadBuffersAsynchronously:(NSArray *) loadRequests;
-- (BOOL) unloadBuffer:(int) soundId;
-- (ALCcontext *) openALContext;
-- (void) audioSessionInterrupted;
-- (void) audioSessionResumed;
+/** Stops playing a source group */
+- (void) stopSourceGroup:(int) sourceGroupId;
+/** Stops all playing sounds */
+-(void) stopAllSounds;
+-(void) defineSourceGroups:(NSArray*) sourceGroupDefinitions;
+-(void) defineSourceGroups:(int[]) sourceGroupDefinitions total:(int) total;
+-(void) setSourceGroupNonInterruptible:(int) sourceGroupId isNonInterruptible:(BOOL) isNonInterruptible;
+-(void) setSourceGroupEnabled:(int) sourceGroupId enabled:(BOOL) enabled;
+-(BOOL) sourceGroupEnabled:(int) sourceGroupId;
+-(BOOL) loadBufferFromData:(int) soundId soundData:(ALvoid*) soundData format:(ALenum) format size:(ALsizei) size freq:(ALsizei) freq;
+-(BOOL) loadBuffer:(int) soundId filePath:(NSString*) filePath;
+-(void) loadBuffersAsynchronously:(NSArray *) loadRequests;
+-(BOOL) unloadBuffer:(int) soundId;
+-(ALCcontext *) openALContext;
+-(void) audioSessionInterrupted;
+-(void) audioSessionResumed;
 
-- (BOOL) _initOpenAL;
-- (ALuint) _startSound:(int) soundId channelId:(int) channelId pitchVal:(float) pitchVal panVal:(float) panVal gainVal:(float) gainVal looping:(BOOL) looping checkState:(BOOL) checkState
-;
+/** Used internally, never call unless you know what you are doing */
+-(void) _soundSourcePreRelease:(CDSoundSource *) soundSource;
 
 @end
 
-////////////////////////////////////////////////////////////////////////////
-@interface CDSourceWrapper : NSObject {
-	ALuint sourceId;
-	float lastPitch;
-	float lastPan;
-	float lastGain;
-	BOOL lastLooping;
+#pragma mark CDSoundSource
+/** CDSoundSource is a wrapper around an OpenAL sound source.
+ It allows you to manipulate properties such as pitch, gain, pan and looping while the 
+ sound is playing. CDSoundSource is based on the old CDSourceWrapper class but with much
+ added functionality.
+ 
+ @since v1.0
+ */
+@interface CDSoundSource : NSObject <CDAudioTransportProtocol, CDAudioInterruptProtocol> {
+	ALenum lastError;
+@public
+	ALuint _sourceId;
+	ALuint _sourceIndex;
+	CDSoundEngine* _engine;
+	int _soundId;
+	float _preMuteGain;
+	BOOL enabled_;
+	BOOL mute_;
 }
-@property (readwrite, nonatomic) ALuint sourceId;
 @property (readwrite, nonatomic) float pitch;
 @property (readwrite, nonatomic) float gain;
 @property (readwrite, nonatomic) float pan;
 @property (readwrite, nonatomic) BOOL looping;
 @property (readonly)  BOOL isPlaying;
+@property (readwrite, nonatomic) int soundId;
+
+/** Stores the last error code that occurred. Check against AL_NO_ERROR */
+@property (readonly) ALenum lastError;
+/** Do not init yourself, get an instance from the sourceForSound factory method on CDSoundEngine */
+-(id)init:(ALuint) theSourceId sourceIndex:(int) index soundEngine:(CDSoundEngine*) engine;
 
 @end
 
-////////////////////////////////////////////////////////////////////////////
+#pragma mark CDAudioInterruptTargetGroup
+
+/** Container for objects that implement audio interrupt protocol i.e. they can be muted and enabled.
+ Setting mute and enabled for the group propagates to all children. 
+ Designed to be used with your CDSoundSource objects to get them to comply with global enabled and mute settings
+ if that is what you want to do.*/
+@interface CDAudioInterruptTargetGroup : NSObject <CDAudioInterruptProtocol> {
+	BOOL mute_;
+	BOOL enabled_;
+	NSMutableArray *children_;
+}
+-(void) addAudioInterruptTarget:(NSObject<CDAudioInterruptProtocol>*) interruptibleTarget;
+@end
+
+#pragma mark CDAsynchBufferLoader
+
+/** CDAsynchBufferLoader
+ TODO
+ */
 @interface CDAsynchBufferLoader : NSOperation {
 	NSArray *_loadRequests;
 	CDSoundEngine *_soundEngine;
@@ -225,8 +320,9 @@ typedef struct _channelGroup {
 
 @end
 
-////////////////////////////////////////////////////////////////////////////
+#pragma mark CDBufferLoadRequest
 
+/** CDBufferLoadRequest */
 @interface CDBufferLoadRequest: NSObject
 {
 	NSString *filePath;
@@ -238,5 +334,86 @@ typedef struct _channelGroup {
 @property (readonly) int soundId;
 
 - (id)init:(int) theSoundId filePath:(NSString *) theFilePath;
+@end
+
+/** Interpolation type */
+typedef enum {
+	kIT_Linear,			//!Straight linear interpolation fade
+	kIT_SCurve,			//!S curved interpolation
+	kIT_Exponential 	//!Exponential interpolation
+} tCDInterpolationType;
+
+#pragma mark CDFloatInterpolator
+@interface CDFloatInterpolator: NSObject
+{
+	float start;
+	float end;
+	float lastValue;
+	tCDInterpolationType interpolationType;
+}
+@property (readwrite, nonatomic) float start;
+@property (readwrite, nonatomic) float end;
+@property (readwrite, nonatomic) tCDInterpolationType interpolationType;
+
+/** Return a value between min and max based on t which represents fractional progress where 0 is the start
+ and 1 is the end */
+-(float) interpolate:(float) t;
+-(id) init:(tCDInterpolationType) type startVal:(float) startVal endVal:(float) endVal;
 
 @end
+
+#pragma mark CDPropertyModifier
+
+/** Base class for classes that modify properties such as pitch, pan and gain */
+@interface CDPropertyModifier: NSObject
+{
+	CDFloatInterpolator *interpolator;
+	float startValue;
+	float endValue;
+	id target;
+	BOOL stopTargetWhenComplete;
+	
+}
+@property (readwrite, nonatomic) BOOL stopTargetWhenComplete;
+@property (readwrite, nonatomic) float startValue;
+@property (readwrite, nonatomic) float endValue;
+@property (readwrite, nonatomic) tCDInterpolationType interpolationType;
+
+-(id) init:(id) theTarget interpolationType:(tCDInterpolationType) type startVal:(float) startVal endVal:(float) endVal;
+/** Set to a fractional value between 0 and 1 where 0 equals the start and 1 equals the end*/
+-(void) modify:(float) t;
+
+-(void) _setTargetProperty:(float) newVal;
+-(float) _getTargetProperty;
+-(void) _stopTarget;
+-(Class) _allowableType;
+
+@end
+
+#pragma mark CDSoundSourceFader
+
+/** Fader for CDSoundSource objects */
+@interface CDSoundSourceFader : CDPropertyModifier{}
+@end
+
+#pragma mark CDSoundSourcePanner
+
+/** Panner for CDSoundSource objects */
+@interface CDSoundSourcePanner : CDPropertyModifier{}
+@end
+
+#pragma mark CDSoundSourcePitchBender
+
+/** Pitch bender for CDSoundSource objects */
+@interface CDSoundSourcePitchBender : CDPropertyModifier{}
+@end
+
+#pragma mark CDSoundEngineFader
+
+/** Fader for CDSoundEngine objects */
+@interface CDSoundEngineFader : CDPropertyModifier{}
+@end
+
+
+
+

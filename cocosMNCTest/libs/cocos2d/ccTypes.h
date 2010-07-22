@@ -1,22 +1,34 @@
-/* cocos2d for iPhone
+/*
+ * cocos2d for iPhone: http://www.cocos2d-iphone.org
  *
- * http://www.cocos2d-iphone.org
- *
- * Copyright (C) 2008,2009 Ricardo Quesada
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the 'cocos2d for iPhone' license.
- *
- * You will find a copy of this license within the cocos2d for iPhone
- * distribution inside the "LICENSE" file.
- *
+ * Copyright (c) 2008-2010 Ricardo Quesada
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
  */
+
 
 /**
  @file
  cocos2d (cc) types
 */
 
+#import <objc/objc.h>				// BOOL
 #import <CoreGraphics/CGGeometry.h>	// CGPoint
 #import <OpenGLES/ES1/gl.h>			// GLenum, GLubyte
 
@@ -85,6 +97,30 @@ typedef struct _ccColor4F {
 	float b;
 	float a;
 } ccColor4F;
+
+/** Returns a ccColor4F from a ccColor3B. Alpha will be 1.
+ @since v0.99.1
+ */
+static inline ccColor4F ccc4FFromccc3B(ccColor3B c)
+{
+	return (ccColor4F){c.r/255.f, c.g/255.f, c.b/255.f, 1.f};
+}
+
+/** Returns a ccColor4F from a ccColor4B.
+ @since v0.99.1
+ */
+static inline ccColor4F ccc4FFromccc4B(ccColor4B c)
+{
+	return (ccColor4F){c.r/255.f, c.g/255.f, c.b/255.f, c.a/255.f};
+}
+
+/** returns YES if both ccColor4F are equal. Otherwise it returns NO.
+ @since v0.99.1
+ */
+static inline BOOL ccc4FEqual(ccColor4F a, ccColor4F b)
+{
+	return a.r == b.r && a.g == b.g && a.b == b.b && a.a == b.a;
+}
 
 /** A vertex composed of 2 floats: x, y
  @since v0.8

@@ -1,20 +1,22 @@
 //
 //  TestModel.h
-//  OMGTTT
+//  cocosMNCTest
 //
-//  Created by Jeremy on 1/12/10.
-//  Copyright 2010 Jeremy Flores. All rights reserved.
+//  Created by jeremy on 7/21/10.
+//  Copyright 2010 N/A. All rights reserved.
 //
 
 #import "AbstractModel.h"
 #import "cocos2d.h"
 
 @interface TestModel : AbstractModel {
+	NSString *title;
 	ccColor3B color;
-	NSString *string;
 }
 
 @property (nonatomic) ccColor3B color;
-@property (nonatomic, retain) NSString *string;
+@property (nonatomic, retain) NSString *title;
+
+-(id) initWithTitle:(NSString *)aTitle color:(ccColor3B)aColor;
 
 @end

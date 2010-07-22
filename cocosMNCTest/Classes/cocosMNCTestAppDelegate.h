@@ -2,8 +2,8 @@
 //  cocosMNCTestAppDelegate.h
 //  cocosMNCTest
 //
-//  Created by Jeremy on 1/14/10.
-//  Copyright Jeremy Flores 2010. All rights reserved.
+//  Created by jeremy on 7/19/10.
+//  Copyright N/A 2010. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

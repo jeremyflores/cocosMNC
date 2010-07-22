@@ -1,0 +1,67 @@
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:51,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCCamera.h:27:19: error: CCNode.h: No such file or directory
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCLabel.h:28,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:61,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCSprite.h:82: error: cannot find interface declaration for 'CCNode', superclass of 'CCSprite'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:62,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCLayer.h:43: error: cannot find interface declaration for 'CCNode', superclass of 'CCLayer'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCMenu.h:29,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:63,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCMenuItem.h:42: error: cannot find interface declaration for 'CCNode', superclass of 'CCMenuItem'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:65,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCParticleSystem.h:162: error: cannot find interface declaration for 'CCNode', superclass of 'CCParticleSystem'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:70,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCScene.h:42: error: cannot find interface declaration for 'CCNode', superclass of 'CCScene'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:74,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCSpriteSheet.h:52: error: cannot find interface declaration for 'CCNode', superclass of 'CCSpriteSheet'
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCSpriteSheet.h:58: error: expected specifier-qualifier-list before 'CCArray'
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCSpriteSheet.h:68: error: expected specifier-qualifier-list before 'CCArray'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCLabelAtlas.h:27,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:79,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCAtlasNode.h:39: error: cannot find interface declaration for 'CCNode', superclass of 'CCAtlasNode'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:88,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCParallaxNode.h:34: error: cannot find interface declaration for 'CCNode', superclass of 'CCParallaxNode'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:90,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTMXTiledMap.h:102: error: cannot find interface declaration for 'CCNode', superclass of 'CCTMXTiledMap'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:95,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCRenderTexture.h:50: error: cannot find interface declaration for 'CCNode', superclass of 'CCRenderTexture'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCMotionStreak.h:28,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:96,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCRibbon.h:47: error: cannot find interface declaration for 'CCNode', superclass of 'CCRibbon'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:96,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCMotionStreak.h:47: error: cannot find interface declaration for 'CCNode', superclass of 'CCMotionStreak'
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCRadialTransition.h:27,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h:103,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:9,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCProgressTimer.h:53: error: cannot find interface declaration for 'CCNode', superclass of 'CCProgressTimer'
+/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCProgressTimer.h:82: error: property 'sprite' with 'retain' attribute must be of object type
+In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.h:10,
+                 from /Users/jeremy/code/cocosMNC/cocosMNCTest/MNCNode.m:9:
+/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode+Additions.h:14: error: cannot find interface declaration for 'CCNode'

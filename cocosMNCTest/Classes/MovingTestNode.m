@@ -1,20 +1,21 @@
 //
 //  MovingTestNode.m
-//  OMGTTT
+//  cocosMNCTest
 //
-//  Created by Jeremy on 1/14/10.
-//  Copyright 2010 Jeremy Flores. All rights reserved.
+//  Created by jeremy on 7/21/10.
+//  Copyright 2010 N/A. All rights reserved.
 //
 
 #import "MovingTestNode.h"
+#import "TestModel.h"
 
 
 @implementation MovingTestNode
 
 -(void)modelDidChange:(TestModel *)model {
 	[super modelDidChange:model];
-	[self runAction:[EaseExponentialOut actionWithAction:[MoveBy actionWithDuration: 1.0
-									  position: ccp(CCRANDOM_MINUS1_1()*20, CCRANDOM_MINUS1_1()*20)]]];
+	[self runAction:[CCEaseExponentialOut actionWithAction:[CCMoveBy actionWithDuration: 1.0
+																		   position: ccp(CCRANDOM_MINUS1_1()*20, CCRANDOM_MINUS1_1()*20)]]];
 }
 
 @end
