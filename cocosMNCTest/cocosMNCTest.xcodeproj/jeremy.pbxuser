@@ -57,14 +57,17 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 301465340;
-			PBXWorkspaceStateSaveDate = 301465340;
+			PBXPerProjectTemplateStateSaveDate = 301470930;
+			PBXWorkspaceStateSaveDate = 301470930;
 		};
 		perUserProjectItems = {
+			3F6B0C7D11F802A70091E827 /* PBXTextBookmark */ = 3F6B0C7D11F802A70091E827 /* PBXTextBookmark */;
+			3F6B0C7E11F802A70091E827 /* PBXTextBookmark */ = 3F6B0C7E11F802A70091E827 /* PBXTextBookmark */;
+			3F6B0C7F11F802A70091E827 /* PBXTextBookmark */ = 3F6B0C7F11F802A70091E827 /* PBXTextBookmark */;
 			3FB3D40911F7FF3D00FFAE1A /* PBXTextBookmark */ = 3FB3D40911F7FF3D00FFAE1A /* PBXTextBookmark */;
-			3FB3D40A11F7FF3D00FFAE1A /* PBXTextBookmark */ = 3FB3D40A11F7FF3D00FFAE1A /* PBXTextBookmark */;
-			3FB3D40D11F7FF3D00FFAE1A /* PBXTextBookmark */ = 3FB3D40D11F7FF3D00FFAE1A /* PBXTextBookmark */;
-			3FB3D40E11F7FF3D00FFAE1A /* PBXTextBookmark */ = 3FB3D40E11F7FF3D00FFAE1A /* PBXTextBookmark */;
+			3FC949E611F814E300FC69A8 /* PBXTextBookmark */ = 3FC949E611F814E300FC69A8 /* PBXTextBookmark */;
+			3FC949E711F814E300FC69A8 /* PBXTextBookmark */ = 3FC949E711F814E300FC69A8 /* PBXTextBookmark */;
+			3FC949E811F814E300FC69A8 /* PBXTextBookmark */ = 3FC949E811F814E300FC69A8 /* PBXTextBookmark */;
 			3FDB6A4011F51B1600258C29 /* PBXTextBookmark */ = 3FDB6A4011F51B1600258C29 /* PBXTextBookmark */;
 			3FDB6A4211F51B1600258C29 /* PBXTextBookmark */ = 3FDB6A4211F51B1600258C29 /* PBXTextBookmark */;
 			3FDB6A8411F52F6500258C29 /* PBXTextBookmark */ = 3FDB6A8411F52F6500258C29 /* PBXTextBookmark */;
@@ -82,16 +85,43 @@
 			3FE85B1611F7F6CB00EDB7CF /* PBXTextBookmark */ = 3FE85B1611F7F6CB00EDB7CF /* PBXTextBookmark */;
 			3FE85B1711F7F6CB00EDB7CF /* PBXTextBookmark */ = 3FE85B1711F7F6CB00EDB7CF /* PBXTextBookmark */;
 			3FE85B4411F7F85800EDB7CF /* PBXTextBookmark */ = 3FE85B4411F7F85800EDB7CF /* PBXTextBookmark */;
-			3FE85B4511F7F85800EDB7CF /* PBXTextBookmark */ = 3FE85B4511F7F85800EDB7CF /* PBXTextBookmark */;
 			3FE85B4611F7F85800EDB7CF /* PBXTextBookmark */ = 3FE85B4611F7F85800EDB7CF /* PBXTextBookmark */;
 			3FE85B4711F7F85800EDB7CF /* PBXTextBookmark */ = 3FE85B4711F7F85800EDB7CF /* PBXTextBookmark */;
 			3FE85B4811F7F85800EDB7CF /* PBXTextBookmark */ = 3FE85B4811F7F85800EDB7CF /* PBXTextBookmark */;
-			3FE85B9C11F7FCF200EDB7CF /* PBXTextBookmark */ = 3FE85B9C11F7FCF200EDB7CF /* PBXTextBookmark */;
-			3FE85B9D11F7FCF200EDB7CF /* PBXTextBookmark */ = 3FE85B9D11F7FCF200EDB7CF /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3FDB6A1B11F5184B00258C29 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	3F6B0C7D11F802A70091E827 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3FDB6A2311F5185600258C29 /* CCNodeController.m */;
+		name = "CCNodeController.m: 29";
+		rLen = 0;
+		rLoc = 658;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 167;
+	};
+	3F6B0C7E11F802A70091E827 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3FDB6A2311F5185600258C29 /* CCNodeController.m */;
+		name = "CCNodeController.m: 29";
+		rLen = 0;
+		rLoc = 658;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 1684;
+	};
+	3F6B0C7F11F802A70091E827 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3FE85A0811F7E86500EDB7CF /* TestNodeController.m */;
+		name = "TestNodeController.m: 44";
+		rLen = 0;
+		rLoc = 1053;
+		rType = 0;
+		vrLen = 1031;
+		vrLoc = 162;
 	};
 	3FB3D40911F7FF3D00FFAE1A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -103,17 +133,17 @@
 		vrLen = 258;
 		vrLoc = 0;
 	};
-	3FB3D40A11F7FF3D00FFAE1A /* PBXTextBookmark */ = {
+	3FC949E611F814E300FC69A8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3FDB6A2311F5185600258C29 /* CCNodeController.m */;
 		name = "CCNodeController.m: 29";
 		rLen = 0;
 		rLoc = 658;
 		rType = 0;
-		vrLen = 410;
-		vrLoc = 166;
+		vrLen = 376;
+		vrLoc = 200;
 	};
-	3FB3D40D11F7FF3D00FFAE1A /* PBXTextBookmark */ = {
+	3FC949E711F814E300FC69A8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3FDB6A2311F5185600258C29 /* CCNodeController.m */;
 		name = "CCNodeController.m: 29";
@@ -123,7 +153,7 @@
 		vrLen = 914;
 		vrLoc = 1684;
 	};
-	3FB3D40E11F7FF3D00FFAE1A /* PBXTextBookmark */ = {
+	3FC949E811F814E300FC69A8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3FE85A0811F7E86500EDB7CF /* TestNodeController.m */;
 		name = "TestNodeController.m: 44";
@@ -253,12 +283,6 @@
 		name = CCNode.m;
 		path = /Users/jeremy/code/cocosMNC/Shared/CCNode.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 12480}}";
-			sepNavSelRange = "{5641, 0}";
-			sepNavVisRange = "{12801, 824}";
-			sepNavWindowFrame = "{{15, 52}, {855, 726}}";
-		};
 	};
 	3FDB6A8411F52F6500258C29 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -332,7 +356,7 @@
 	};
 	3FE85A0811F7E86500EDB7CF /* TestNodeController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {796, 1215}}";
+			sepNavIntBoundsRect = "{{0, 0}, {796, 1140}}";
 			sepNavSelRange = "{1053, 0}";
 			sepNavVisRange = "{162, 1031}";
 			sepNavWindowFrame = "{{425, 52}, {855, 726}}";
@@ -506,16 +530,6 @@
 		vrLen = 360;
 		vrLoc = 1086;
 	};
-	3FE85B4511F7F85800EDB7CF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3FDB6A2311F5185600258C29 /* CCNodeController.m */;
-		name = "CCNodeController.m: 29";
-		rLen = 0;
-		rLoc = 658;
-		rType = 0;
-		vrLen = 410;
-		vrLoc = 166;
-	};
 	3FE85B4611F7F85800EDB7CF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3FE85A0811F7E86500EDB7CF /* TestNodeController.m */;
@@ -545,26 +559,6 @@
 		rType = 0;
 		vrLen = 262;
 		vrLoc = 0;
-	};
-	3FE85B9C11F7FCF200EDB7CF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3FDB6A2311F5185600258C29 /* CCNodeController.m */;
-		name = "CCNodeController.m: 29";
-		rLen = 0;
-		rLoc = 658;
-		rType = 0;
-		vrLen = 981;
-		vrLoc = 1684;
-	};
-	3FE85B9D11F7FCF200EDB7CF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3FE85A0811F7E86500EDB7CF /* TestNodeController.m */;
-		name = "TestNodeController.m: 44";
-		rLen = 0;
-		rLoc = 1053;
-		rType = 0;
-		vrLen = 1075;
-		vrLoc = 162;
 	};
 	504DFC6810AF1739006D82FE /* LICENSE.cocos2d */ = {
 		uiCtxt = {

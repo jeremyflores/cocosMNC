@@ -1,7 +1,7 @@
 TcocosMNCTest
 v7
 r0
-t301465367.155650
+t301470935.414237
 cCheck dependencies
 cProcessInfoPlistFile /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/Info.plist Resources/Info.plist
 cCpResource build/Debug-iphonesimulator/cocosMNCTest.app/Default.png Resources/Default.png
@@ -155,14 +155,14 @@ t1255470829
 s23852
 
 N/Users/jeremy/code/cocosMNC/Shared/AbstractModel.h
-c000000004C44DE35000000000000029A
-t1279581749
+c000000004C47CACC000000000000029A
+t1279773388
 s666
 i<Foundation/Foundation.h>
 
 N/Users/jeremy/code/cocosMNC/Shared/CCNode+Additions.h
-c000000004C44E0FE000000000000015F
-t1279582462
+c000000004C47CACC000000000000015F
+t1279773388
 s351
 i"cocos2d.h"
 
@@ -179,8 +179,8 @@ i"ccConfig.h"
 i"Support/CCArray.h"
 
 N/Users/jeremy/code/cocosMNC/Shared/CCNodeController.h
-c000000004C44EFFD000000000000075D
-t1279586301
+c000000004C47CACC000000000000075D
+t1279773388
 s1885
 i<Foundation/Foundation.h>
 i"cocos2d.h"
@@ -232,14 +232,14 @@ i<stdlib.h>
 i<string.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/AbstractModel.m
-c000000004C44DE3500000000000002D0
-t1279581749
+c000000004C47CACC00000000000002D0
+t1279773388
 s720
 i"AbstractModel.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode+Additions.m
-c000000004C44E11000000000000003BE
-t1279582480
+c000000004C47CACC00000000000003BE
+t1279773388
 s958
 i"CCNode+Additions.h"
 
@@ -272,8 +272,8 @@ i"Support/ccCArray.h"
 i"Support/TransformUtils.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNodeController.m
-c000000004C47BBF90000000000000B12
-t1279769593
+c000000004C47D8390000000000000B12
+t1279776825
 s2834
 i"CCNodeController.h"
 
@@ -290,14 +290,14 @@ s2573
 i"CocosNodeController.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/FirstScene.h
-c000000004C47BFE80000000000000109
-t1279770600
+c000000004C47CACC0000000000000109
+t1279773388
 s265
 i"cocos2d.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/FirstScene.m
-c000000004C47BB3000000000000002C4
-t1279769392
+c000000004C47CACC00000000000002C4
+t1279773388
 s708
 i"FirstScene.h"
 i"TestNodeController.h"
@@ -315,68 +315,68 @@ s1472
 i"HelloWorldScene.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/MovingTestNode.h
-c000000004C47B92D00000000000000C5
-t1279768877
+c000000004C47CACC00000000000000C5
+t1279773388
 s197
 i"TestNode.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/MovingTestNode.m
-c000000004C47BAE000000000000001D5
-t1279769312
+c000000004C47CACC00000000000001D5
+t1279773388
 s469
 i"MovingTestNode.h"
 i"TestModel.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/SecondScene.h
-c000000004C47BFE6000000000000010B
-t1279770598
+c000000004C47CACC000000000000010B
+t1279773388
 s267
 i"cocos2d.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/SecondScene.m
-c000000004C47C47C0000000000000399
-t1279771772
+c000000004C47CACC0000000000000399
+t1279773388
 s921
 i"SecondScene.h"
 i"TestNodeController.h"
 i"TestModel.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestModel.h
-c000000004C47BB6B0000000000000194
-t1279769451
+c000000004C47CACC0000000000000194
+t1279773388
 s404
 i"AbstractModel.h"
 i"cocos2d.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestModel.m
-c000000004C47C2C800000000000002DA
-t1279771336
+c000000004C47CACC00000000000002DA
+t1279773388
 s730
 i"TestModel.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNode.h
-c000000004C47B9FB00000000000000E2
-t1279769083
+c000000004C47CACC00000000000000E2
+t1279773388
 s226
 i"cocos2d.h"
 i"AbstractModel.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNode.m
-c000000004C47C22D0000000000000237
-t1279771181
+c000000004C47CACC0000000000000237
+t1279773388
 s567
 i"TestNode.h"
 i"TestModel.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNodeController.h
-c000000004C47B10700000000000000DD
-t1279766791
+c000000004C47CACC00000000000000DD
+t1279773388
 s221
 i"CCNodeController.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNodeController.m
-c000000004C47C4CD0000000000000781
-t1279771853
+c000000004C47CACC0000000000000781
+t1279773388
 s1921
 i"TestNodeController.h"
 i"MovingTestNode.h"
@@ -386,14 +386,14 @@ i"FirstScene.h"
 i"SecondScene.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/cocosMNCTestAppDelegate.h
-c000000004C44E0C60000000000000135
-t1279582406
+c000000004C47CACC0000000000000135
+t1279773388
 s309
 i<UIKit/UIKit.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/cocosMNCTestAppDelegate.m
-c000000004C47AF9500000000000008B1
-t1279766421
+c000000004C47CACC00000000000008B1
+t1279773388
 s2225
 i"cocosMNCTestAppDelegate.h"
 i"cocos2d.h"
@@ -413,72 +413,72 @@ s715
 i"MNCNode.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Resources/Default.png
-c000000004C44E0C600000000000077AB
-t1279582406
+c000000004C47CACC00000000000077AB
+t1279773388
 s30635
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Resources/Icon.png
-c000000004C44E0C6000000000000246F
-t1279582406
+c000000004C47CACC000000000000246F
+t1279773388
 s9327
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/Resources/fps_images.png
-c000000004C44E0C6000000000000183B
-t1279582406
+c000000004C47CACC000000000000183B
+t1279773388
 s6203
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app
-t1279772565
+t1279778135
 s272
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app.dSYM
-t1279772565
+t1279778135
 s102
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/Default.png
-t1279582436
+t1279773388
 s30635
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/Icon.png
-t1279582436
+t1279773388
 s9327
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/Info.plist
-t1279582436
+t1279773388
 s619
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/PkgInfo
-t1279582436
+t1279773388
 s8
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest
-t1279772565
-s1424024
+t1279778135
+s1423940
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/fps_images.png
-t1279582436
+t1279773388
 s6203
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/libcocos2d libraries.a
-c000000004C44F81A00000000003AC778
-t1279588378
-s3852152
+c000000004C47CB0C00000000003ABC68
+t1279773452
+s3849320
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/AbstractModel.o
-t1279583115
+t1279773453
 s12008
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode+Additions.o
-t1279588378
-s48616
+t1279773453
+s48556
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode.o
-t1279772564
+t1279773454
 s114996
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNodeController.o
-t1279769627
-s58152
+t1279778134
+s58156
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CocosNode+Additions.o
 t1279582476
@@ -489,8 +489,8 @@ t2
 s0
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/FirstScene.o
-t1279770710
-s13144
+t1279773453
+s13148
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/HelloWorldScene.o
 t1279588378
@@ -501,140 +501,140 @@ t2
 s0
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/MovingTestNode.o
-t1279769452
-s16228
+t1279773454
+s16232
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/SecondScene.o
-t1279772564
+t1279773454
 s14708
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestModel.o
-t1279771337
+t1279773454
 s13168
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNode.o
-t1279771182
-s18012
+t1279773454
+s18016
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNodeController.o
-t1279772564
+t1279773454
 s51936
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/cocosMNCTest.LinkFileList
-c000000004C47C79400000000000006AC
-t1279772564
+c000000004C47CACC00000000000006AC
+t1279773388
 s1708
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/cocosMNCTestAppDelegate.o
-t1279770710
-s59784
+t1279773453
+s59672
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/main.o
-t1279583115
+t1279773453
 s6432
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/cocosMNCTest_Prefix.pch
-c000000004C44E0C600000000000000BB
-t1279582406
+c000000004C47CACC00000000000000BB
+t1279773388
 s187
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCAction.h
-c000000004C44E0C6000000000000165C
-t1279582406
+c000000004C47CACC000000000000165C
+t1279773388
 s5724
 i<UIKit/UIKit.h>
 i<sys/time.h>
 i"ccTypes.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCActionManager.h
-c000000004C44E0C60000000000001072
-t1279582406
+c000000004C47CACC0000000000001072
+t1279773388
 s4210
 i"CCAction.h"
 i"Support/ccCArray.h"
 i"Support/uthash.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCAtlasNode.h
-c000000004C44E0C60000000000000C4A
-t1279582406
+c000000004C47CACC0000000000000C4A
+t1279773388
 s3146
 i"CCTextureAtlas.h"
 i"CCNode.h"
 i"CCProtocols.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCBitmapFontAtlas.h
-c000000004C44E0C60000000000001533
-t1279582406
+c000000004C47CACC0000000000001533
+t1279773388
 s5427
 i"CCAtlasNode.h"
 i"CCSpriteSheet.h"
 i"Support/uthash.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCBlockSupport.h
-c000000004C44E0C600000000000007A9
-t1279582406
+c000000004C47CACC00000000000007A9
+t1279773388
 s1961
 i<Foundation/Foundation.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCCamera.h
-c000000004C44E0C60000000000000B48
-t1279582406
+c000000004C47CACC0000000000000B48
+t1279773388
 s2888
 i"CCNode.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCCameraAction.h
-c000000004C44E0C600000000000009AA
-t1279582406
+c000000004C47CACC00000000000009AA
+t1279773388
 s2474
 i"CCIntervalAction.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCCompatibility.h
-c000000004C44E0C60000000000003891
-t1279582406
+c000000004C47CACC0000000000003891
+t1279773388
 s14481
 i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCConfiguration.h
-c000000004C44E0C60000000000000A89
-t1279582406
+c000000004C47CACC0000000000000A89
+t1279773388
 s2697
 i<OpenGLES/ES1/gl.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCDirector.h
-c000000004C44E0C600000000000040A8
-t1279582406
+c000000004C47CACC00000000000040A8
+t1279773388
 s16552
 i"ccConfig.h"
 i"ccTypes.h"
 i"Support/EAGLView.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCDrawingPrimitives.h
-c000000004C44E0C60000000000000B1A
-t1279582406
+c000000004C47CACC0000000000000B1A
+t1279773388
 s2842
 i<CoreGraphics/CGGeometry.h>
 i<objc/objc.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCEaseAction.h
-c000000004C44E0C60000000000001671
-t1279582406
+c000000004C47CACD0000000000001671
+t1279773389
 s5745
 i"CCIntervalAction.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCGrabber.h
-c000000004C44E0C600000000000005FA
-t1279582406
+c000000004C47CACD00000000000005FA
+t1279773389
 s1530
 i<OpenGLES/ES1/gl.h>
 i<OpenGLES/ES1/glext.h>
 i<UIKit/UIKit.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCGrid.h
-c000000004C44E0C60000000000000E50
-t1279582406
+c000000004C47CACD0000000000000E50
+t1279773389
 s3664
 i<UIKit/UIKit.h>
 i"CCNode.h"
@@ -642,14 +642,14 @@ i"CCCamera.h"
 i"ccTypes.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCGrid3DAction.h
-c000000004C44E0C600000000000019DF
-t1279582406
+c000000004C47CACD00000000000019DF
+t1279773389
 s6623
 i"CCGridAction.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCGridAction.h
-c000000004C44E0C600000000000014A7
-t1279582406
+c000000004C47CACD00000000000014A7
+t1279773389
 s5287
 i<UIKit/UIKit.h>
 i"CCIntervalAction.h"
@@ -657,15 +657,15 @@ i"CCInstantAction.h"
 i"CCGrid.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCInstantAction.h
-c000000004C44E0C60000000000001178
-t1279582406
+c000000004C47CACD0000000000001178
+t1279773389
 s4472
 i<UIKit/UIKit.h>
 i"CCAction.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCIntervalAction.h
-c000000004C44E0C60000000000003266
-t1279582406
+c000000004C47CACD0000000000003266
+t1279773389
 s12902
 i"CCNode.h"
 i"CCAction.h"
@@ -673,22 +673,22 @@ i"CCProtocols.h"
 i<sys/time.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCLabel.h
-c000000004C44E0C60000000000000A19
-t1279582406
+c000000004C47CACD0000000000000A19
+t1279773389
 s2585
 i"CCTexture2D.h"
 i"CCSprite.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCLabelAtlas.h
-c000000004C44E0C6000000000000098E
-t1279582406
+c000000004C47CACD000000000000098E
+t1279773389
 s2446
 i"CCAtlasNode.h"
 i"CCTextureAtlas.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCLayer.h
-c000000004C44E0C6000000000000139E
-t1279582406
+c000000004C47CACD000000000000139E
+t1279773389
 s5022
 i<UIKit/UIKit.h>
 i"CCProtocols.h"
@@ -696,32 +696,32 @@ i"CCNode.h"
 i"CCTouchDelegateProtocol.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCMenu.h
-c000000004C44E0C60000000000000AEE
-t1279582406
+c000000004C47CACD0000000000000AEE
+t1279773389
 s2798
 i<UIKit/UIKit.h>
 i"CCMenuItem.h"
 i"CCLayer.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCMenuItem.h
-c000000004C44E0C600000000000031FC
-t1279582406
+c000000004C47CACD00000000000031FC
+t1279773389
 s12796
 i"CCBlockSupport.h"
 i"CCNode.h"
 i"CCProtocols.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCMotionStreak.h
-c000000004C44E0C60000000000000B2A
-t1279582406
+c000000004C47CACD0000000000000B2A
+t1279773389
 s2858
 i<Foundation/Foundation.h>
 i"CCNode.h"
 i"CCRibbon.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCNode.h
-c000000004C44EF680000000000003ED8
-t1279586152
+c000000004C47CACD0000000000003ED8
+t1279773389
 s16088
 i<OpenGLES/ES1/gl.h>
 i"CCAction.h"
@@ -732,8 +732,8 @@ i"ccConfig.h"
 i"Support/CCArray.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCNode.m
-c000000004C44F2170000000000004950
-t1279586839
+c000000004C47CACD0000000000004950
+t1279773389
 s18768
 i"ccConfig.h"
 i"CCNode.h"
@@ -748,42 +748,42 @@ i"Support/ccCArray.h"
 i"Support/TransformUtils.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCPVRTexture.h
-c000000004C44E0C60000000000000CA5
-t1279582406
+c000000004C47CACD0000000000000CA5
+t1279773389
 s3237
 i<UIKit/UIKit.h>
 i<OpenGLES/ES1/gl.h>
 i<OpenGLES/ES1/glext.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCPageTurn3DAction.h
-c000000004C44E0C60000000000000644
-t1279582406
+c000000004C47CACD0000000000000644
+t1279773389
 s1604
 i"CCGrid3DAction.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCPageTurnTransition.h
-c000000004C44E0C600000000000008F5
-t1279582406
+c000000004C47CACD00000000000008F5
+t1279773389
 s2293
 i"CCTransition.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCParallaxNode.h
-c000000004C44E0C6000000000000075B
-t1279582406
+c000000004C47CACD000000000000075B
+t1279773389
 s1883
 i"CCNode.h"
 i"Support/ccCArray.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCParticleExamples.h
-c000000004C44E0C600000000000008C1
-t1279582406
+c000000004C47CACD00000000000008C1
+t1279773389
 s2241
 i"CCPointParticleSystem.h"
 i"CCQuadParticleSystem.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCParticleSystem.h
-c000000004C44E0C60000000000003694
-t1279582406
+c000000004C47CACD0000000000003694
+t1279773389
 s13972
 i"CCProtocols.h"
 i"CCNode.h"
@@ -791,57 +791,57 @@ i"ccTypes.h"
 i"ccConfig.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCPointParticleSystem.h
-c000000004C44E0C60000000000000762
-t1279582406
+c000000004C47CACD0000000000000762
+t1279773389
 s1890
 i"CCParticleSystem.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCProgressTimer.h
-c000000004C44E0C60000000000000B48
-t1279582406
+c000000004C47CACD0000000000000B48
+t1279773389
 s2888
 i<Foundation/Foundation.h>
 i"CCSprite.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCProgressTimerActions.h
-c000000004C44E0C7000000000000088D
-t1279582407
+c000000004C47CACD000000000000088D
+t1279773389
 s2189
 i<Foundation/Foundation.h>
 i"CCProgressTimer.h"
 i"CCIntervalAction.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCPropertyAction.h
-c000000004C44E0C70000000000000941
-t1279582407
+c000000004C47CACD0000000000000941
+t1279773389
 s2369
 i<Foundation/Foundation.h>
 i"CCIntervalAction.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCProtocols.h
-c000000004C44E0C70000000000000E35
-t1279582407
+c000000004C47CACD0000000000000E35
+t1279773389
 s3637
 i"ccTypes.h"
 i"CCTexture2D.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCQuadParticleSystem.h
-c000000004C44E0C700000000000009A2
-t1279582407
+c000000004C47CACD00000000000009A2
+t1279773389
 s2466
 i"CCParticleSystem.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCRadialTransition.h
-c000000004C44E0C700000000000005F2
-t1279582407
+c000000004C47CACD00000000000005F2
+t1279773389
 s1522
 i"CCTransition.h"
 i"CCProgressTimer.h"
 i"CCProgressTimerActions.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCRenderTexture.h
-c000000004C44E0C70000000000000A68
-t1279582407
+c000000004C47CACD0000000000000A68
+t1279773389
 s2664
 i<Foundation/Foundation.h>
 i"CCNode.h"
@@ -849,8 +849,8 @@ i"CCSprite.h"
 i"Support/OpenGL_Internal.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCRibbon.h
-c000000004C44E0C70000000000000FCE
-t1279582407
+c000000004C47CACD0000000000000FCE
+t1279773389
 s4046
 i"CCNode.h"
 i"CCTexture2D.h"
@@ -858,47 +858,47 @@ i"CCProtocols.h"
 i<OpenGLES/ES1/gl.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCScene.h
-c000000004C44E0C70000000000000691
-t1279582407
+c000000004C47CACD0000000000000691
+t1279773389
 s1681
 i<UIKit/UIKit.h>
 i"CCNode.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCScheduler.h
-c000000004C44E0C70000000000001982
-t1279582407
+c000000004C47CACD0000000000001982
+t1279773389
 s6530
 i<Foundation/Foundation.h>
 i"Support/uthash.h"
 i"ccTypes.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCSprite.h
-c000000004C44E0C70000000000002EA9
-t1279582407
+c000000004C47CACD0000000000002EA9
+t1279773389
 s11945
 i"CCNode.h"
 i"CCProtocols.h"
 i"CCTextureAtlas.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCSpriteFrame.h
-c000000004C44E0C700000000000013F5
-t1279582407
+c000000004C47CACD00000000000013F5
+t1279773389
 s5109
 i<Foundation/Foundation.h>
 i"CCNode.h"
 i"CCProtocols.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCSpriteFrameCache.h
-c000000004C44E0C70000000000000FF9
-t1279582407
+c000000004C47CACD0000000000000FF9
+t1279773389
 s4089
 i<Foundation/Foundation.h>
 i"CCSpriteFrame.h"
 i"CCTexture2D.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCSpriteSheet.h
-c000000004C44E0C70000000000001762
-t1279582407
+c000000004C47CACD0000000000001762
+t1279773389
 s5986
 i"CCNode.h"
 i"CCProtocols.h"
@@ -906,90 +906,90 @@ i"CCTextureAtlas.h"
 i"ccMacros.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTMXLayer.h
-c000000004C44E0C70000000000001820
-t1279582407
+c000000004C47CACD0000000000001820
+t1279773389
 s6176
 i"CCAtlasNode.h"
 i"CCSpriteSheet.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTMXObjectGroup.h
-c000000004C44E0C700000000000008ED
-t1279582407
+c000000004C47CACD00000000000008ED
+t1279773389
 s2285
 i"CCAtlasNode.h"
 i"CCSpriteSheet.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTMXTiledMap.h
-c000000004C44E0C700000000000014EC
-t1279582407
+c000000004C47CACD00000000000014EC
+t1279773389
 s5356
 i"CCAtlasNode.h"
 i"CCSpriteSheet.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTMXXMLParser.h
-c000000004C44E0C700000000000015E1
-t1279582407
+c000000004C47CACD00000000000015E1
+t1279773389
 s5601
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTexture2D.h
-c000000004C44E0C7000000000000262B
-t1279582407
+c000000004C47CACD000000000000262B
+t1279773389
 s9771
 i<UIKit/UIKit.h>
 i<OpenGLES/ES1/gl.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTextureAtlas.h
-c000000004C44E0C70000000000001477
-t1279582407
+c000000004C47CACD0000000000001477
+t1279773389
 s5239
 i"CCTexture2D.h"
 i"ccTypes.h"
 i"ccConfig.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTextureCache.h
-c000000004C44E0C70000000000001303
-t1279582407
+c000000004C47CACD0000000000001303
+t1279773389
 s4867
 i<Foundation/Foundation.h>
 i<CoreGraphics/CGImage.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTileMapAtlas.h
-c000000004C44E0C70000000000000B72
-t1279582407
+c000000004C47CACD0000000000000B72
+t1279773389
 s2930
 i"CCTextureAtlas.h"
 i"CCAtlasNode.h"
 i"Support/TGAlib.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTiledGridAction.h
-c000000004C44E0C70000000000001A15
-t1279582407
+c000000004C47CACD0000000000001A15
+t1279773389
 s6677
 i"CCGridAction.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTouchDelegateProtocol.h
-c000000004C44E0C70000000000000AC5
-t1279582407
+c000000004C47CACD0000000000000AC5
+t1279773389
 s2757
 i<UIKit/UIKit.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTouchDispatcher.h
-c000000004C44E0C70000000000000FC6
-t1279582407
+c000000004C47CACD0000000000000FC6
+t1279773389
 s4038
 i"CCTouchDelegateProtocol.h"
 i"Support/EAGLView.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTouchHandler.h
-c000000004C44E0C70000000000000C9C
-t1279582407
+c000000004C47CACD0000000000000C9C
+t1279773389
 s3228
 i"CCTouchDelegateProtocol.h"
 i"CCTouchDispatcher.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCTransition.h
-c000000004C44E0C70000000000002130
-t1279582407
+c000000004C47CACD0000000000002130
+t1279773389
 s8496
 i"CCScene.h"
 
@@ -1000,29 +1000,29 @@ s3168
 i"ccCArray.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/CCFileUtils.h
-c000000004C44E0C7000000000000058C
-t1279582407
+c000000004C47CACD000000000000058C
+t1279773389
 s1420
 i<Foundation/Foundation.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/CCProfiling.h
-c000000004C44E0C700000000000006E9
-t1279582407
+c000000004C47CACD00000000000006E9
+t1279773389
 s1769
 i<Foundation/Foundation.h>
 i<sys/time.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/CGPointExtension.h
-c000000004C44E0C70000000000001E13
-t1279582407
+c000000004C47CACD0000000000001E13
+t1279773389
 s7699
 i<CoreGraphics/CGGeometry.h>
 i<math.h>
 i<objc/objc.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/EAGLView.h
-c000000004C44E0C700000000000018E9
-t1279582407
+c000000004C47CACD00000000000018E9
+t1279773389
 s6377
 i<UIKit/UIKit.h>
 i<OpenGLES/EAGL.h>
@@ -1032,68 +1032,74 @@ i<OpenGLES/ES1/glext.h>
 i"ESRenderer.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/ESRenderer.h
-c000000004C44E0C700000000000005FB
-t1279582407
+c000000004C47CACD00000000000005FB
+t1279773389
 s1531
 i<QuartzCore/QuartzCore.h>
 i<OpenGLES/EAGL.h>
 i<OpenGLES/EAGLDrawable.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/OpenGL_Internal.h
-c000000004C44E0C700000000000011A7
-t1279582407
+c000000004C47CACD00000000000011A7
+t1279773389
 s4519
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/TGAlib.h
-c000000004C44E0C70000000000000444
-t1279582407
+c000000004C47CACD0000000000000444
+t1279773389
 s1092
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/TransformUtils.h
-c000000004C44E0C70000000000000549
-t1279582407
+c000000004C47CACD0000000000000549
+t1279773389
 s1353
 i<UIKit/UIKit.h>
 i<OpenGLES/ES1/gl.h>
 
+N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/ccArray.h
+c000000004C47CACD0000000000000C60
+t1279773389
+s3168
+i"ccCArray.h"
+
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/ccCArray.h
-c000000004C44E0C70000000000003092
-t1279582407
+c000000004C47CACD0000000000003092
+t1279773389
 s12434
 i<Foundation/Foundation.h>
 i<stdlib.h>
 i<string.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/Support/uthash.h
-c000000004C44E0C7000000000000FB13
-t1279582407
+c000000004C47CACD000000000000FB13
+t1279773389
 s64275
 i<string.h>
 i<stddef.h>
 i<inttypes.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/ccConfig.h
-c000000004C44E0C70000000000001ABD
-t1279582407
+c000000004C47CACD0000000000001ABD
+t1279773389
 s6845
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/ccMacros.h
-c000000004C44E0C70000000000001740
-t1279582407
+c000000004C47CACD0000000000001740
+t1279773389
 s5952
 i<math.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/ccTypes.h
-c000000004C44E0C70000000000001651
-t1279582407
+c000000004C47CACD0000000000001651
+t1279773389
 s5713
 i<objc/objc.h>
 i<CoreGraphics/CGGeometry.h>
 i<OpenGLES/ES1/gl.h>
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/cocos2d.h
-c000000004C44E0C70000000000000E62
-t1279582407
+c000000004C47CACD0000000000000E62
+t1279773389
 s3682
 i"ccConfig.h"
 i"CCBlockSupport.h"
@@ -1165,27 +1171,27 @@ i"Support/CCProfiling.h"
 i"CCCompatibility.h"
 
 N/Users/jeremy/code/cocosMNC/cocosMNCTest/main.m
-c000000004C44E0C70000000000000156
-t1279582407
+c000000004C47CACD0000000000000156
+t1279773389
 s342
 i<UIKit/UIKit.h>
 
 N/var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch.gch
-t1279583114
+t1279773453
 s15227920
 
 NResources/Info.plist
-c000000004C44E0C6000000000000038E
-t1279582406
+c000000004C47CACC000000000000038E
+t1279773388
 s910
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies301465367#301465367#0(0"0(0#1#0"8598577280#0"0#
+lSLF07#2@18"Check dependencies301470934#301470934#0(0"0(0#1#0"27866456492998768#0"0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/AbstractModel.o /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/AbstractModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301275915.170109
-e301275915.262573
+s301466253.547991
+e301466253.608676
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/AbstractModel.o
@@ -1194,11 +1200,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/AbstractModel.m301275915#301275915#0(0"0(0#0#66"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/AbstractModel.m8636131808#2090"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/AbstractModel.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/AbstractModel.o0#
+lSLF07#2@74"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/AbstractModel.m301466253#301466253#0(0"0(0#0#66"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/AbstractModel.m8603897600#2090"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/AbstractModel.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/AbstractModel.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode+Additions.o /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode+Additions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301281178.797827
-e301281178.969086
+s301466253.608778
+e301466253.773119
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode+Additions.o
@@ -1207,7 +1213,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode+Additions.m301281178#301281178#0(0"0(0#0#69"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode+Additions.m8626907680#2096"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode+Additions.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode+Additions.o0#
+lSLF07#2@77"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode+Additions.m301466253#301466253#0(0"0(0#0#69"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode+Additions.m8602829888#2096"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode+Additions.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode+Additions.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode.o /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301281178.969189
@@ -1223,8 +1229,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@67"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode.m301281178#301281179#0(0"0(0#0#59"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode.m8601247360#2076"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNode.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode.o /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301465364.610470
-e301465364.876319
+s301466254.255837
+e301466254.498136
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode.o
@@ -1233,11 +1239,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCNode.m301465364#301465364#0(0"0(0#0#62"/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCNode.m8611814752#2079"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCNode.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode.o0#
+lSLF07#2@70"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCNode.m301466254#301466254#0(0"0(0#0#62"/Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCNode.m8602228416#2079"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/libs/cocos2d/CCNode.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNode.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNodeController.o /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNodeController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301462427.626836
-e301462427.807805
+s301470934.222458
+e301470934.846460
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNodeController.o
@@ -1246,7 +1252,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNodeController.m301462427#301462427#0(0"0(0#0#69"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNodeController.m8625997152#2096"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNodeController.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNodeController.o0#
+lSLF07#2@77"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNodeController.m301470934#301470934#0(0"0(0#0#69"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNodeController.m8458374127842317312#2096"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CCNodeController.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CCNodeController.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CocosNode+Additions.o /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNode+Additions.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301275275.869110
@@ -1314,8 +1320,8 @@ o/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:114: w
 lSLF07#2@80"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301275275#301275276#0(4998"In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:9:/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h:28: error: cannot find protocol declaration for 'TargetedTouchDelegate'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h:30: error: expected specifier-qualifier-list before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h:35: error: expected specifier-qualifier-list before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h:39: error: expected ')' before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h:40: error: expected ')' before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h:43: error: expected ')' before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h:44: error: expected ')' before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:14: error: no declaration of property 'cocosNode' found in the interface/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:16: error: expected ')' before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:20: error: expected ')' before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:28: error: expected ')' before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: In function '-[CocosNodeController initWithCocosNode:model:]':/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:29: warning: suggest parentheses around assignment used as truth value/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:30: error: request for member 'cocosNode' in something not a structure or union/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: At top level:/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:36: error: expected ')' before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: In function '-[CocosNodeController initWithCocosNode:]':/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:37: warning: suggest parentheses around assignment used as truth value/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:38: error: request for member 'cocosNode' in something not a structure or union/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: In function '-[CocosNodeController initWithModel:]':/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:44: warning: suggest parentheses around assignment used as truth value/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: In function '-[CocosNodeController init]':/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:51: warning: suggest parentheses around assignment used as truth value/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: In function '-[CocosNodeController setModel:]':/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:59: error: 'cocosNode' undeclared (first use in this function)/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:59: error: (Each undeclared identifier is reported only once/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:59: error: for each function it appears in.)/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: At top level:/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:72: error: expected ')' before 'CocosNode'/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: In function '-[CocosNodeController setCocosNode:]':/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:73: error: 'CocosNode' undeclared (first use in this function)/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:73: error: 'parent' undeclared (first use in this function)/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:76: error: 'cocosNode' undeclared (first use in this function)/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: In function '-[CocosNodeController setSwallowsTouches:]':/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:104: error: 'TouchDispatcher' undeclared (first use in this function)/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m: In function '-[CocosNodeController ccTouchBegan:withEvent:]':/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:113: error: 'kEventIgnored' undeclared (first use in this function)/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m:114: warning: control reaches end of non-void function28(4@60"Cannot find protocol declaration for 'TargetedTouchDelegate'301275276#98#145#2(7@94"In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#9#0#9#0#0"0(13@136"Cannot find protocol declaration for 'TargetedTouchDelegate' in /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#28#0#28#0#0"0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#28#0#28#0#0"0(4@52"Expected specifier-qualifier-list before 'CocosNode'301275276#243#137#2(7@94"In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#9#0#9#0#0"0(13@128"Expected specifier-qualifier-list before 'CocosNode' in /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#30#0#30#0#0"0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#30#0#30#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'CocosNode'301275276#380#137#2(7@94"In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#9#0#9#0#0"0(13@128"Expected specifier-qualifier-list before 'CocosNode' in /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#35#0#35#0#0"0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#35#0#35#0#19"expected * before *0(4@31"Expected ')' before 'CocosNode'301275276#517#116#2(7@94"In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#9#0#9#0#0"0(13@107"Expected ')' before 'CocosNode' in /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#39#0#39#0#0"0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#39#0#39#0#19"expected * before *0(4@31"Expected ')' before 'CocosNode'301275276#633#116#2(7@94"In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#9#0#9#0#0"0(13@107"Expected ')' before 'CocosNode' in /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#40#0#40#0#0"0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#40#0#40#0#19"expected * before *0(4@31"Expected ')' before 'CocosNode'301275276#749#116#2(7@94"In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#9#0#9#0#0"0(13@107"Expected ')' before 'CocosNode' in /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#43#0#43#0#0"0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#43#0#43#0#19"expected * before *0(4@31"Expected ')' before 'CocosNode'301275276#865#116#2(7@94"In file included from /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#9#0#9#0#0"0(13@107"Expected ')' before 'CocosNode' in /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301275276#18446744073709551615#0#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#44#0#44#0#0"0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.h301274549#44#0#44#0#19"expected * before *0(4@61"No declaration of property 'cocosNode' found in the interface301275276#981#146#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#14#0#14#0#0"0(4@31"Expected ')' before 'CocosNode'301275276#1127#116#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#16#0#16#0#19"expected * before *0(4@31"Expected ')' before 'CocosNode'301275276#1243#116#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#20#0#20#0#19"expected * before *0(4@31"Expected ')' before 'CocosNode'301275276#1359#116#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#28#0#28#0#19"expected * before *0(22@57"Suggest parentheses around assignment used as truth value301275276#1612#144#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#29#0#29#0#0"0(4@68"Request for member 'cocosNode' in something not a structure or union301275276#1756#153#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#30#0#30#0#0"0(23@13"At top level:301275276#1909#88#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#0#0#0#0#0"0(4@31"Expected ')' before 'CocosNode'301275276#1997#116#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#36#0#36#0#19"expected * before *0(22@57"Suggest parentheses around assignment used as truth value301275276#2244#144#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#37#0#37#0#0"0(4@68"Request for member 'cocosNode' in something not a structure or union301275276#2388#153#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#38#0#38#0#0"0(22@57"Suggest parentheses around assignment used as truth value301275276#2668#144#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#44#0#44#0#0"0(22@57"Suggest parentheses around assignment used as truth value301275276#2929#144#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#51#0#51#0#0"0(4@51"'cocosNode' undeclared (first use in this function)301275276#3195#136#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#59#0#59#0#43"'*' undeclared (first use in this function)0(23@13"At top level:301275276#3583#88#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#0#0#0#0#0"0(4@31"Expected ')' before 'CocosNode'301275276#3671#116#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#72#0#72#0#19"expected * before *0(4@51"'CocosNode' undeclared (first use in this function)301275276#3913#136#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#73#0#73#0#43"'*' undeclared (first use in this function)0(4@48"'parent' undeclared (first use in this function)301275276#4049#133#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#73#0#73#0#43"'*' undeclared (first use in this function)0(4@51"'cocosNode' undeclared (first use in this function)301275276#4182#136#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#76#0#76#0#43"'*' undeclared (first use in this function)0(4@57"'TouchDispatcher' undeclared (first use in this function)301275276#4450#143#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#104#0#104#0#43"'*' undeclared (first use in this function)0(4@55"'kEventIgnored' undeclared (first use in this function)301275276#4729#141#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#113#0#113#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function301275276#4870#128#0(6@72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m301274549#114#0#114#0#40"control reaches end of non-void function0(0#0#72"/Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m8605046656#2108"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -Wall -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/../Shared/CocosNodeController.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/CocosNodeController.o1#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/FirstScene.o /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/FirstScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301463510.625157
-e301463510.775905
+s301466253.773217
+e301466253.952544
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/FirstScene.o
@@ -1324,7 +1330,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/FirstScene.m301463510#301463510#0(0"0(0#0#61"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/FirstScene.m8615722784#2082"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/FirstScene.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/FirstScene.o0#
+lSLF07#2@69"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/FirstScene.m301466253#301466253#0(0"0(0#0#61"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/FirstScene.m8606875744#2082"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/FirstScene.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/FirstScene.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/HelloWorldScene.o /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/HelloWorldScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301281178.649368
@@ -1343,8 +1349,8 @@ CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Obje
 r0
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/MovingTestNode.o /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/MovingTestNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301462252.033511
-e301462252.208910
+s301466254.115287
+e301466254.255737
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/MovingTestNode.o
@@ -1353,11 +1359,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/MovingTestNode.m301462252#301462252#0(0"0(0#0#65"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/MovingTestNode.m8626948000#2090"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/MovingTestNode.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/MovingTestNode.o0#
+lSLF07#2@73"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/MovingTestNode.m301466254#301466254#0(0"0(0#0#65"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/MovingTestNode.m8604346624#2090"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/MovingTestNode.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/MovingTestNode.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/SecondScene.o /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/SecondScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301465364.470907
-e301465364.610342
+s301466254.183072
+e301466254.347238
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/SecondScene.o
@@ -1366,11 +1372,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/SecondScene.m301465364#301465364#0(0"0(0#0#62"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/SecondScene.m8612166816#2084"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/SecondScene.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/SecondScene.o0#
+lSLF07#2@70"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/SecondScene.m301466254#301466254#0(0"0(0#0#62"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/SecondScene.m8605826944#2084"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/SecondScene.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/SecondScene.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestModel.o /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301464137.772018
-e301464137.898185
+s301466253.890800
+e301466254.052500
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestModel.o
@@ -1379,11 +1385,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestModel.m301464137#301464137#0(0"0(0#0#60"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestModel.m8615229824#2080"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestModel.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestModel.o0#
+lSLF07#2@68"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestModel.m301466253#301466254#0(0"0(0#0#60"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestModel.m8606396064#2080"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestModel.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestModel.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNode.o /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301463982.036569
-e301463982.163625
+s301466254.052603
+e301466254.182979
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNode.o
@@ -1392,11 +1398,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNode.m301463982#301463982#0(0"0(0#0#59"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNode.m8596200256#2078"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNode.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNode.o0#
+lSLF07#2@67"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNode.m301466254#301466254#0(0"0(0#0#59"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNode.m8605859232#2078"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNode.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNode.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNodeController.o /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNodeController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301465364.452885
-e301465364.643400
+s301466253.952647
+e301466254.115185
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNodeController.o
@@ -1405,11 +1411,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNodeController.m301465364#301465364#0(0"0(0#0#69"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNodeController.m8458374127842317312#2098"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNodeController.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNodeController.o0#
+lSLF07#2@77"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNodeController.m301466253#301466254#0(0"0(0#0#69"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNodeController.m8606166592#2098"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/TestNodeController.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/TestNodeController.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/cocosMNCTestAppDelegate.o /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/cocosMNCTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301463510.623831
-e301463510.803679
+s301466253.491175
+e301466253.696772
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/cocosMNCTestAppDelegate.o
@@ -1418,11 +1424,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/cocosMNCTestAppDelegate.m301463510#301463510#0(0"0(0#0#74"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/cocosMNCTestAppDelegate.m8615978688#2108"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/cocosMNCTestAppDelegate.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/cocosMNCTestAppDelegate.o0#
+lSLF07#2@82"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/cocosMNCTestAppDelegate.m301466253#301466253#0(0"0(0#0#74"/Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/cocosMNCTestAppDelegate.m8605861824#2108"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/Classes/cocosMNCTestAppDelegate.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/cocosMNCTestAppDelegate.o0#
 
 CCompileC build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/main.o /Users/jeremy/code/cocosMNC/cocosMNCTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301275914.958344
-e301275915.062997
+s301466253.490059
+e301466253.547892
 r1
 xCompileC
 xbuild/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/main.o
@@ -1431,7 +1437,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/main.m301275914#301275915#0(0"0(0#0#47"/Users/jeremy/code/cocosMNC/cocosMNCTest/main.m8607344256#2062"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/main.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/main.o0#
+lSLF07#2@55"Compile /Users/jeremy/code/cocosMNC/cocosMNCTest/main.m301466253#301466253#0(0"0(0#0#47"/Users/jeremy/code/cocosMNC/cocosMNCTest/main.m8602596000#2062"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -include /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/main.m -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/main.o0#
 
 CCpResource build/Debug-iphonesimulator/cocosMNCTest.app/Default.png Resources/Default.png
 s301275236.862420
@@ -1461,23 +1467,23 @@ xResources/fps_images.png
 lSLF07#2@29"Copy Resources/fps_images.png301275236#301275236#0(0"0(0#0#65"/Users/jeremy/code/cocosMNC/cocosMNCTest/Resources/fps_images.png8615183296#479"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jeremy/code/cocosMNC/cocosMNCTest/Resources/fps_images.png /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app0#
 
 CGenerateDSYMFile /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app.dSYM /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest
-s301465365.107388
-e301465365.253039
+s301470935.266744
+e301470935.411303
 r1
 xGenerateDSYMFile
 x/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app.dSYM
 x/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/cocosMNCTest.app.dSYM build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest301465365#301465365#0(0"0(0#0#98"/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest8611181536#404"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app.dSYM0#
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/cocosMNCTest.app.dSYM build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest301470935#301470935#0(0"0(0#0#98"/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest8609352352#404"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app.dSYM0#
 
 CLd /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest normal i386
-s301465364.876427
-e301465365.107283
+s301470934.846567
+e301470935.266637
 r1
 xLd
 x/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest
 xnormal
 xi386
-lSLF07#2@103"Link /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest301465364#301465365#0(0"0(0#0#0"8606445472#1085"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -filelist /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/cocosMNCTest.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest0#
+lSLF07#2@103"Link /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest301470934#301470935#0(0"0(0#0#0"8600620704#1085"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -filelist /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/Objects-normal/i386/cocosMNCTest.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/cocosMNCTest0#
 
 CProcessInfoPlistFile /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/Info.plist Resources/Info.plist
 s301275236.829755
@@ -1489,8 +1495,8 @@ xResources/Info.plist
 lSLF07#2@28"Process Resources/Info.plist301275236#301275236#0(0"0(0#0#61"/Users/jeremy/code/cocosMNC/cocosMNCTest/Resources/Info.plist8617124032#497"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app/Info.plist0#
 
 CProcessPCH /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch.gch cocosMNCTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s301275913.860843
-e301275914.958084
+s301466252.691572
+e301466253.489853
 r1
 xProcessPCH
 x/var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch.gch
@@ -1499,13 +1505,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile cocosMNCTest_Prefix.pch301275913#301275914#0(0"0(0#0#64"/Users/jeremy/code/cocosMNC/cocosMNCTest/cocosMNCTest_Prefix.pch8626695360#1947"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -c /Users/jeremy/code/cocosMNC/cocosMNCTest/cocosMNCTest_Prefix.pch -o /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch.gch0#
+lSLF07#2@34"Precompile cocosMNCTest_Prefix.pch301466252#301466253#0(0"0(0#0#64"/Users/jeremy/code/cocosMNC/cocosMNCTest/cocosMNCTest_Prefix.pch7301534899460337664#1947"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-generated-files.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-own-target-headers.hmap -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-all-target-headers.hmap -iquote /Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/cocosMNCTest-project-headers.hmap -F/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/include -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources/i386 -I/Users/jeremy/code/cocosMNC/cocosMNCTest/build/cocosMNCTest.build/Debug-iphonesimulator/cocosMNCTest.build/DerivedSources -c /Users/jeremy/code/cocosMNC/cocosMNCTest/cocosMNCTest_Prefix.pch -o /var/folders/xS/xS55S2XREJ8A6Vcv4b-WiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cocosMNCTest_Prefix-dfpgpvuwhgbaymejlzjixiilmvfq/cocosMNCTest_Prefix.pch.gch0#
 
 CTouch /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app
-s301465365.253125
-e301465365.255978
+s301470935.411406
+e301470935.414191
 r1
 xTouch
 x/Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app
-lSLF07#2@91"Touch /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app301465365#301465365#0(0"0(0#0#0"8605802688#287"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app0#
+lSLF07#2@91"Touch /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app301470935#301470935#0(0"0(0#0#0"8609155936#287"    cd /Users/jeremy/code/cocosMNC/cocosMNCTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jeremy/code/cocosMNC/cocosMNCTest/build/Debug-iphonesimulator/cocosMNCTest.app0#
 

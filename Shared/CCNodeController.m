@@ -123,20 +123,20 @@
 	[[CCTouchDispatcher sharedDispatcher] removeDelegate:self];
 }
 
-// SUBCLASS
+// OVERRIDE
 - (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
 	return NO;
 }
 
-// SUBCLASS
+// OVERRIDE
 - (void)ccTouchMoved:(UITouch *)touch withEvent:(UIEvent *)event {
 }
 
-// SUBCLASS
+// OVERRIDE
 - (void)ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {
 }
 
-// SUBCLASS
+// OVERRIDE
 - (void)ccTouchCancelled:(UITouch *)touch withEvent:(UIEvent *)event {
 }
 
