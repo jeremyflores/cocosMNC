@@ -1,10 +1,24 @@
-Provides a model-view-controller (MVC) design pattern for cocos2D for iPhone. Since cocos2D uses nodes instead of views, this implementation is known as a model-node-controller (MNC).
+Provides a model-view-controller (MVC) design pattern for cocos2d for iPhone. Since cocos2d uses nodes instead of views, this implementation is known as a model-node-controller (MNC).
 
-cocosMNC is "traditionally" designed: there is one view per controller, one controller per view, and one model per controller. However, there may be more than one view-controller pair per model.
+cocosMNC is designed such that there is one view per controller, one controller per view, and one model per controller. However, there may be more than one view-controller pair per model.
 
 This repository has an XCode project included which demonstrates a simple implementation of cocosMNC: the base cocosMNC code is in the "Shared" directory, meant to be shared between various XCode projects.
 
-cocosMNC has only been tested against the 0.8.2 version of cocos2D. Since cocos2D is still heavily in development and may therefore be unstable, there may be changes to this code base as the main project evolves.
+This version of cocosMNC was only tested with version 0.99.4 of cocos2d.
+
+==================================================
+
+HOW TO USE cocosMNC:
+
+First, make sure to include the AbstractModel, CCNode+Additions, and CCNodeController files to your project (and import them as needed since they are not imported into cocos2d.h).
+
+For the CCNode files, navigate to the libs/cocos2d folder in your project's directory. In there, you must replace the original CCNode.h and CCNode.m files with the cocosMNC versions of those files, which are found in the cocosMNC/Shared directory. (These altered CCNode files should not change the behavior of normal CCNode files--they merely send messages to the CCNode's controller.)
+
+Then, to define custom behavior on receiving touches, subclass CCNodeController and override the normal touch delegate methods (like ccTouchBegan:withEvent:). CCNodeController will automatically register/unregister itself for touch notifications whenever the CCNode is entered or exited.
+
+Finally, subclass AbstractModel to define custom information for the MVC pattern. This subclass is responsible for calling [self didChange] whenever the CCNode should be updated (this could be accomplished, for example, by using properties for variables and manually defining their setter method).
+
+==================================================
 
 This code is published under the MIT License:
 
